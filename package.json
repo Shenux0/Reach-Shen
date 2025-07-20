@@ -1,0 +1,35 @@
+{
+  "name": "stay-connected-with-shen",
+  "version": "1.0.0",
+  "description": "A modern contact page with dark theme design",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=/index.html",
+    "dev": "npx live-server --port=3000 --open=/index.html --watch=assets/",
+    "build": "echo 'This is a static site, no build process needed'",
+    "serve": "npx http-server -p 3000 -o"
+  },
+  "keywords": [
+    "contact-page",
+    "portfolio",
+    "responsive",
+    "dark-theme",
+    "personal-website"
+  ],
+  "author": "Ranidu Rashen (Shen)",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shenux0/stay-connected"
+  },
+  "homepage": ".",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
